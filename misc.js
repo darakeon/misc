@@ -5,7 +5,7 @@ function makeMisc(id, dna) {
 	var color = r + g + b;
 
 	var main = document.getElementById(id);
-	
+
 	setClass(main, color, "ant", dna.substr(1, 2));
 	setClass(main, color, "eye", dna.substr(4, 2));
 	setClass(main, color, "arm", dna.substr(7, 1));
